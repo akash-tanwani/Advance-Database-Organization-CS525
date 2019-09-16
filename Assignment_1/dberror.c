@@ -1,14 +1,13 @@
 #include "dberror.h"
+
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
 
-//pointer to character
 char *RC_message;
 
 /* print a message to standard out describing the error */
-void 
-printError (RC error)
+void printError (RC error)
 {
 	if (RC_message != NULL)
 		printf("EC (%i), \"%s\"\n", error, RC_message);
@@ -16,8 +15,7 @@ printError (RC error)
 		printf("EC (%i)\n", error);
 }
 
-char *
-errorMessage (RC error)
+char *errorMessage (RC error)
 {
 	char *message;
 
