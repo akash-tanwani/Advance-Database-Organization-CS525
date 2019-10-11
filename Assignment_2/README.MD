@@ -38,10 +38,10 @@ This method pins the page with page number ```pageNum```. The buffer manager is 
 passed to the method. Similarly, the data field points to the page frame the page is stored in (the area in memory storing the content of the page).
 
 **- unpinPage: **
-This method unpins the page page. The ```pageNum``` field of page is used to figure out which page to unpin.
+This method unpins the page. The ```pageNum``` field of page is used to figure out which page to unpin.
 
 **- makeDirty: **
-This method marks a page as dirty, i.e if the page is modified the dirty bit is set to 1.
+This method marks a page as dirty, i.e, if the page is modified the dirty bit is set to 1.
 
 **- forcePage: **
 This method writes the current content of the page back to the page file on disk by finding that specified page using ```pageNum```.
@@ -91,7 +91,7 @@ Step 2: Navigate to the Assignment 1 directory.
 
 Step 3: Type command ```make``` and hit enter. (Files are complied and ready to be executed)
 
-Step 4: Type command ```./make run``` if you are using a Windows machine
+Step 4: Type command ```make run``` if you are using a Windows machine
 
 -----------------------------------------------------------------------------------------------------------------
 
