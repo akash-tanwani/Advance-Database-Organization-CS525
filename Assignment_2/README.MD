@@ -87,7 +87,7 @@ This method is used in ```pinPage()``` to upadte the buffer attribute.
 ## How to Run: ##
 Step 1: Open Command Promt/PowerShell/Terminal.
 
-Step 2: Navigate to the Assignment 1 directory.
+Step 2: Navigate to the Assignment 2 directory.
 
 Step 3: Type command ```make``` and hit enter. (Files are complied and ready to be executed)
 
