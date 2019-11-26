@@ -74,7 +74,7 @@ BufferPool_Entry *checkPoolsUsingFile(EntryPointer entry, int *filename)
     while(crnt!=NULL)
     {
         bufferpool = (BM_BufferPool *)crnt->buffer_pool_ptr;
-        if(bufferpool->pageFile == filename)
+        if(bufferpool->pageFile == (char *)filename)
            break;
         crnt = crnt->nextBufferEntry;
     }
